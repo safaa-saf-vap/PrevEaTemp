@@ -1,0 +1,29 @@
+period_of_prediction: 7 # This can be  7, 14, or 16
+sensors:
+  SEI 80:
+    coordinates: [48.099592, -1.577657]
+    deveui: 70B3D559700001F5
+    serial_number: 543
+  SEI 72:
+    coordinates: [48.075369, 0.110809]
+    deveui: 70B3D559700001ED
+    serial_number: 535
+  SEI 74:
+    coordinates: [47.857595, -0.320860]
+    deveui: 70B3D559700001EF
+    serial_number: 537
+  SEI 76:
+    coordinates: [48.083569, -0.642144]
+    deveui: 70B3D559700001F1
+    serial_number: 539
+  SEI 77:
+    coordinates: [48.062007, -0.938648]
+    deveui: 70B3D559700001F2
+    serial_number: 540
+  SEI 78:
+    coordinates: [48.035462, -1.026906]
+    deveui: 70B3D559700001F3
+    serial_number: 541
+
+
+
