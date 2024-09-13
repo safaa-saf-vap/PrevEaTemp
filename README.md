@@ -10,7 +10,7 @@ This project is designed to predict rail temperature based on weather and solar 
 - `requirements.txt`: List of Python dependencies required to run the project.
 
 ## How to Run the Project
-
+use Python version 3.9 or later
 ### Step 1: Modify the Model Path
 
 In the `TemperaturePrediction.py` script, change the path to point to the location of your `PredictionEatempModel.joblib` file. Find and modify the following line:
@@ -22,6 +22,7 @@ model_filename = r'C:\Users\safaa.lahnine\PycharmProjects\Eatemp\PredictionEatem
 ### Step 2:  install the required dependencies
 ```bash
 pip install -r requirements.txt
+pip install openmeteo_requests requests_cache pandas retry_requests PyYaml joblib xgboost
 ```
 ### Step 3: Run the code
 ```bash
