@@ -1,10 +1,10 @@
 # PrevEaTemp
 ## Overview
-This project is designed to predict rail temperature based on solar effects. It uses a machine learning model and several configuration files to make predictions.
+This project is designed to predict rail temperature based on weather and solar effects.
 
 ## Project Files
 
-- `TemperaturePrediction.py`: Main script for running the prediction.
+- `TemperaturePrediction.py`: Main script for running the model.
 - `Config.yaml`: Configuration file containing the settings for the model.
 - `PredictionEatempModel.joblib`: Pre-trained model used for prediction.
 - `requirements.txt`: List of Python dependencies required to run the project.
@@ -17,3 +17,14 @@ In the `TemperaturePrediction.py` script, change the path to point to the locati
 
 ```python
 model_filename = r'C:\Users\safaa.lahnine\PycharmProjects\Eatemp\PredictionEatempModel.joblib'
+```
+
+### Step 2:  install the required dependencies
+```bash
+pip install -r requirements.txt
+```
+### Step 3: Run the code
+```bash
+python TemperaturePrediction.py
+```
+
